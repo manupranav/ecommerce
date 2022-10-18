@@ -1,8 +1,6 @@
 import Stripe from "stripe";
 
-const stripe = new Stripe(
-  "sk_test_51LsmcLSDRRTU0INDfAJJCmB2WELI4FlEwOXtdWux0Nw15uMKTd8RAHejMaSmAtAgqtdwvk2Sz6ESdKhOFkqTi6N000966gucuF"
-);
+const stripe = new Stripe("");
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
